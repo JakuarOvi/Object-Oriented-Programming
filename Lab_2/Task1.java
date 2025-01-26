@@ -1,6 +1,9 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ Task 1: Find the maximum and minimum elements in an array.
+Sample Input: [ 5, 3, 9, 2, 1, 7 ]
+Output:
+Maximum: 9
+Minimum: 1
  */
 package com.mycompany.task1;
 
