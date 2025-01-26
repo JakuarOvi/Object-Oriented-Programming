@@ -1,6 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Task 2: Reverse the elements of an array. Store it in a new one and print
+the new Array. The size of the array is not specified, means it could be 5 or
+7 or any integer value.
+
+Sample Input: [ 1, 2, 3, 4, 5 ]
+Output: [ 5, 4, 3, 2, 1 ]
+
+Sample Input: [ 5, 3, 9, 2, 1, 7 ]
+Output: [ 7, 1, 2, 9, 3, 5 ]
  */
 package com.mycompany.task2;
 
