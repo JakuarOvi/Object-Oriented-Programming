@@ -1,3 +1,34 @@
+/*
+Task 1: 
+Create a class hierarchy to model different types of vehicles.
+• Start with a base class called "Vehicle" that has attributes "makeBy" and
+"makingYear", along with a method to display vehicle information.
+• Add a method in the Vehicle class to check if the manufacturing year is a
+palindrome.
+• Then, create two subclasses "Car" and "Motorcycle" that inherit from the Vehicle
+class.
+• Add specific attributes and methods for each subclass.
+• Finally, create instances of both Car and Motorcycle classes, and demonstrate
+the inheritance and method overriding.
+
+
+Output:
+Car Information:
+Make: Toyota
+Year: 2002
+Number of doors: 4
+This Car manufacturing year is a palindrome.
+
+Motorcycle Information:
+Make: Harley-Davidson
+Year: 2003
+Has sidecar: true
+The Motorcycle manufacturing year is not a palindrome.
+
+*/
+
+
+
 package com.mycompany.task1;
 
 /**
