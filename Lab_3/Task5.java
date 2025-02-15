@@ -1,3 +1,30 @@
+/*
+Task 5: 
+Create a class hierarchy to model different types of electronic devices.
+• Start with a base class called "Device" with attributes "brand" and "totalUnit",
+along with a method to display device information.
+• Add a method in the Device class to compute the sum of all the digits in the
+totalUnit variable.
+• Then, create two subclasses "Phone" and "Laptop" that inherit from the Device
+class.
+• Add specific attributes and methods for each subclass.
+• Finally, create instances of both Phone and Laptop classes and demonstrate the
+inheritance and method overriding.
+
+Output:
+Phone Information:
+Brand: Apple
+Total Unit: 150
+Operating System: iOS
+The sum of 150 is 6.
+
+Laptop Information:
+Brand: Dell
+Total Unit: 125
+Screen Size: 15.6 inches
+The sum of 125 is 8.
+*/
+
 package com.mycompany.task5;
 class Device {
     String brand;
