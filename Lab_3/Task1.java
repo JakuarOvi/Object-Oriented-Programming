@@ -1,4 +1,4 @@
-package com.mycompany.main;
+package com.mycompany.task1;
 
 /**
  *
@@ -59,7 +59,7 @@ class Motorcycle extends Vehicle {
 }
 
 // The public class must match the file name: Main.java
-public class Main {
+public class Task1 {
     public static void main(String[] args) {
         Car car = new Car("Toyota", 2002, 4);
         Motorcycle motorcycle = new Motorcycle("Harley-Davidson", 2003, true);
