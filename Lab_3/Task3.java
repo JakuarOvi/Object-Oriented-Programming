@@ -1,3 +1,26 @@
+/*
+Task 3:
+Create a class hierarchy for geometric shapes.
+• Start with a base class called "Shape" that has an abstract method to calculate
+area.
+• Then, create two subclasses "Rectangle" and "Triangle" that inherit from the
+Shape class.
+• Implement the area calculation methods for each subclass.
+• Add a method in the Triangle class to determine if it's a right-angled triangle
+based on side lengths.
+• Add a method in the Rectangle class to determine if it's a square based on side
+lengths.
+• Finally, create instances of both Rectangle and Triangle classes and calculate
+their areas.
+
+
+Output:
+Rectangle Area: 15.0
+This Rectangle is not a Square.
+
+Triangle Area: 45.5
+This Triangle is a right-angled Triangle.
+*/
 package com.mycompany.task3;
 abstract class Shape {
     public abstract double calculateArea();
