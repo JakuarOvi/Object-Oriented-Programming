@@ -1,3 +1,30 @@
+/*
+Task 6: 
+Create a class hierarchy to model different types of beverages.
+• Start with a base class called "Beverage" with attributes "name" and "price",
+along with a method to display beverage information.
+• Add a method in the Beverage class to find the duplicate char in the name
+attribute.
+• Then, create two subclasses "Coffee" and "Soda" that inherit from the Beverage
+class.
+• Add specific attributes and methods for each subclass.
+• Finally, create instances of both Coffee and Soda classes and demonstrate the
+inheritance and method overriding.
+
+Output:
+Coffee Information:
+Name: Espresso
+Price: $3.5
+Caffeine Level: 80 mg
+Duplicate Character: [e, s]
+
+Soda Information:
+Name: Coca-Cola
+Price: $1.99
+Diet: No
+Duplicate Character: [c, o, a]
+*/
+
 package com.mycompany.task6;
 
 import java.util.ArrayList;
