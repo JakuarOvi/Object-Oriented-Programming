@@ -1,3 +1,25 @@
+/*
+Task 2: Create a class hierarchy to model different types of animals.
+• Start with a base class called "Animal" that has attributes "name" and "age",
+along with a method to make the animal sound.
+• Add a method in the Animal class to find the factorial of the age of an animal.
+• Then, create two subclasses "Dog" and "Cat" that inherit from the Animal class.
+• Add specific attributes and methods for each subclass.
+• Finally, create instances of both Dog and Cat classes and demonstrate the
+inheritance and method overriding.
+
+
+Output:
+Dog Name: Iron
+Age: 7
+The dog barks.
+The factorial of 7 is 5040
+
+Cat Name: Tusk
+Age: 5
+The cat meows.
+The factorial of 5 is 120
+*/
 package com.mycompany.task2;
 class Animal {
     String name;
