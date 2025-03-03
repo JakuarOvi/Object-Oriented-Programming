@@ -1,4 +1,32 @@
+/*
+Task 5:
+Create an abstract class called "Movie" with final attributes "title"
+and "director" that cannot be modified after initialization, a static attribute
+"totalMovies" that keeps track of the number of movie instances created
+across the application, a static method "getMovieCount()" that returns the
+total count of all movie objects, and abstract methods "calculateRating()"
+and "displayInfo()"; then create two subclasses, "ActionMovie" and
+"ComedyMovie," that inherit from the Movie class, implementing the
+abstract methods for each subclass, where ActionMovie includes a final
+attribute "stuntsCoordinator" and a static attribute "dangerLevel", while
+ComedyMovie includes a final attribute "humorStyle" and a static method
+"getLaughterRating()", ensuring that both subclasses correctly increment
+the totalMovies count when new instances are created.
 
+
+Sample Output:
+Action Movie: "Mad Max: Fury Road" directed by George Miller.
+Stunt Coordinator: Tom Hardy
+Danger Level: 9/10
+Calculated Rating: 8.5/10
+
+Comedy Movie: "Superbad" directed by Greg Mottola.
+Humor Style: Teen Comedy
+Laughter Rating: 7.8/10
+Calculated Rating: 7.5/10
+
+Total movies created: 2
+*/
 package task5;
 
 abstract class Movie {
