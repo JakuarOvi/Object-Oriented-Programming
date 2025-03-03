@@ -1,4 +1,23 @@
+/*
+Task 2:
+Create a class hierarchy for a library system. Start with a parent
+class "LibraryItem" containing a final attribute "itemId" and static attribute
+"totalItems" that keeps track of all items in the library. Create a child class
+"Book" that inherits from LibraryItem and adds attributes for "title" and
+"author". Implement a static method "getTotalItemCount()" in the
+LibraryItem class that returns the current count. Create a program that
+creates several books and displays the total item count.
 
+Sample Output:
+Added book: "1984" by George Orwell.
+Added book: "The Catcher in the Rye" by J.D. Salinger.
+
+Course Code: CSE222 Credits: 1.5
+Course Name: Object Oriented Programming Lab Faculty: FRS
+
+Added book: "To Kill a Mockingbird" by Harper Lee.
+Total library items: 3
+*/
 package task2;
 class LibraryItem {
     final String itemId;  
