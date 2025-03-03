@@ -1,4 +1,18 @@
+/*
+Task 1: Create a class called "Song" with final attributes "title" and "artist"
+that cannot be modified after initialization. Add a static counter "playCount"
+that tracks how many songs have been played across the application.
+Implement a method "play()" that increments this counter whenever any
+song is played. Create a simple program that instantiates several songs
+and plays them, then displays the total play count.
 
+Sample Output:
+Playing "Bohemian Rhapsody" by Queen...
+Playing "Shape of You" by Ed Sheeran...
+Playing "Bohemian Rhapsody" by Queen...
+
+Total songs played: 3
+*/
 package task1;
  class Task1 {
      static int playCount = 0;
