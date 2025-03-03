@@ -1,4 +1,19 @@
+/*
+Task 3: 
+Create an abstract class called "Shape" with a final attribute "color"
+and static attribute "shapeCount". Include abstract methods
+"calculateArea()" and "calculatePerimeter()". Create two subclasses
+"Circle" and "Rectangle" that inherit from Shape and implement the
+abstract methods. Add a static method "getTotalShapes()" to the Shape
+class. Create a program that instantiates various shapes, calculates their
+areas and perimeters, and displays the total count of shapes created.
 
+Sample Output:
+Circle (Red): Area = 78.54, Perimeter = 31.42
+Rectangle (Blue): Area = 20.0, Perimeter = 18.0
+
+Total shapes created: 2
+*/
 package task3;
 abstract class Shape {
     private final String color;  
