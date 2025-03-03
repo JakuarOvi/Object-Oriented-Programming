@@ -1,5 +1,6 @@
 /*
-Task 1: Create a class called "Song" with final attributes "title" and "artist"
+Task 1: 
+Create a class called "Song" with final attributes "title" and "artist"
 that cannot be modified after initialization. Add a static counter "playCount"
 that tracks how many songs have been played across the application.
 Implement a method "play()" that increments this counter whenever any
